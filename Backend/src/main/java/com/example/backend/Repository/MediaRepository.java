@@ -1,6 +1,6 @@
 package com.example.backend.Repository;
 
-import com.example.backend.Model.Master.Media;
+import com.example.backend.Model.Media.Master.Media;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

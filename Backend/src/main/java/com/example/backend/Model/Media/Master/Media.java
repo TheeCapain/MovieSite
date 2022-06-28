@@ -1,11 +1,11 @@
-package com.example.backend.Model.Master;
+package com.example.backend.Model.Media.Master;
 import javax.persistence.*;
 
 @Entity
 public class Media {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
     private String author;
